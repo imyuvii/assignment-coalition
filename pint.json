@@ -1,0 +1,6 @@
+{
+    "preset": "psr12",
+    "rules": {
+        "class_attributes_separation": true
+    }
+}
