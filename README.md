@@ -4,7 +4,7 @@
 - Extract the archive and put it in the folder you want
 - Run `cp .env.example .env` file to copy example file to .env
 - Then edit your `.env` file with DB credentials and other settings.
-- Run composer install command
+- Run `composer install` command
 - Run `php artisan migrate --seed` command.
 - Notice: seed is important, because it will create the first admin user for you.
 - Run `php artisan key:generate` command.
@@ -14,3 +14,9 @@
 ### Default credentials
 - Username: `admin@admin.com`
 - Password: `password`
+
+### Test Cases
+- To execute test cases Run `php artisan test`
+
+### Support or Contact
+- Email: `mail@imyuvii.com`
